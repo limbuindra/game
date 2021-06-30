@@ -1,0 +1,40 @@
+.board{
+    position: absolute;
+    height: 25px;
+    width: 80px;
+    bottom: 10px;
+    left: 45%;
+    background: red;
+    border-radius: 5px;
+}
+.wrapper{
+    width: 400px;
+    height: 618px;
+    position: relative;
+    margin:auto;
+    margin-top: 40px;
+    border: 1px solid #bbbb;
+    border-radius: 20px;
+    background: lightblue;
+    box-shadow: 4px 4px 4px 4px rgb(177, 169, 169); 
+}
+.obj{
+    position:absolute;
+    height:20px;
+    width:20px;
+    background-color:black ;
+    border-radius: 10px;
+}
+
+.score, .missed {
+    font-size: 60px;
+    position: absolute;
+    right: 10px;
+    font-weight: bold;
+    color: rgb(32, 178, 64);
+    
+}
+.missed{
+    left: 10px;
+    color: rgb(178, 32, 56);
+}
